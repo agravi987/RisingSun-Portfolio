@@ -1,0 +1,56 @@
+/* Styling for NavBar  */
+
+/* General Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif; /* Applying Poppins */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ff96021d; /* White background for simplicity */
+  padding: 0.8rem 1rem;
+}
+
+.navbar-brand {
+  font-family: "Poppins", sans-serif; /* Optional: Use for a consistent theme */
+  font-size: 1.5rem;
+  color: #ffa500; /* Primary theme color for the brand name */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  color: #444444; /* Neutral dark gray for links */
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffa500; /* Highlight links on hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #ff8c00; /* Slightly darker orange for active state */
+}
+
+/* Navbar Responsive Behavior */
+@media (max-width: 991.98px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .nav-link {
+    padding: 0.8rem 0;
+    text-align: center;
+  }
+}

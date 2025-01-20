@@ -1,0 +1,23 @@
+/* Footer Section Styles */
+.footer-section {
+  background-color: #343a40; /* Dark background for contrast */
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #f39c12; /* Hover effect with gold color */
+}
+
+.btn-light {
+  background-color: #f39c12; /* Light gold color for button */
+  color: #fff;
+}
+
+.btn-light:hover {
+  background-color: #e67e22; /* Darker gold on hover */
+}

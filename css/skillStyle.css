@@ -1,0 +1,58 @@
+/* Skills Section */
+.skills-section {
+  /* background-color: #f9f9f9;  */
+  padding: 5rem 0;
+}
+
+.skills-section h2 {
+  font-size: 2.5rem;
+  color: #ffa500; /* Sunrise orange */
+}
+
+.skills-section .progress {
+  background-color: #e0e0e0; /* Lighter gray background for the progress bar */
+  border-radius: 10px;
+}
+
+.skills-section .progress-bar {
+  font-weight: bold;
+  color: white;
+}
+
+.skills-section .skill-item {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skills-section .skill-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.skills-section .skill-item h5 {
+  color: #ffa500; /* Theme color */
+}
+
+.skills-section .progress-bar.bg-warning {
+  background-color: #ffa500;
+}
+
+.skills-section .progress-bar.bg-info {
+  background-color: #17a2b8;
+}
+
+.skills-section .progress-bar.bg-success {
+  background-color: #28a745;
+}
+
+.skills-section .progress-bar.bg-danger {
+  background-color: #dc3545;
+}
+
+.skills-section .progress-bar.bg-secondary {
+  background-color: #6c757d;
+}

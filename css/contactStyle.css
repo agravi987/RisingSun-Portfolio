@@ -1,0 +1,58 @@
+/* Contact Section */
+.contact-section {
+  background-color: #f9f9f9;
+  padding: 5rem 0;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  color: #ffa500; /* Sunrise orange */
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.contact-section .form-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.contact-section .form-control {
+  border-radius: 10px;
+  box-shadow: none;
+  transition: border-color 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.contact-section .form-control:focus {
+  border-color: #ffa500; /* Theme color */
+}
+
+.contact-section .btn-primary {
+  background-color: #ffa500; /* Sunrise orange */
+  border-color: #ffa500;
+  transition: background-color 0.3s ease;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #e07b00; /* Darker orange for hover */
+  border-color: #e07b00;
+}
+
+.contact-section .social-links {
+  margin-top: 1.5rem;
+}
+
+.contact-section .social-icon {
+  font-size: 2rem;
+  margin: 0 1rem;
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-section .social-icon:hover {
+  color: #ffa500; /* Sunrise orange */
+}

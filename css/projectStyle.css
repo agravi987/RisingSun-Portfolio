@@ -1,0 +1,53 @@
+/* Projects Section */
+.projects-section {
+  background-color: #f9f9f9; /* Light gray background */
+  padding: 5rem 0;
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  color: #ffa500; /* Sunrise orange */
+}
+
+.projects-section .project-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projects-section .project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.projects-section .project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.projects-section .project-info {
+  padding: 20px;
+}
+
+.projects-section .project-info h5 {
+  color: #ffa500; /* Theme color */
+  font-size: 1.5rem;
+}
+
+.projects-section .project-info p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.projects-section .btn-primary {
+  background-color: #ffa500; /* Sunrise orange */
+  border-color: #ffa500;
+  transition: background-color 0.3s ease;
+}
+
+.projects-section .btn-primary:hover {
+  background-color: #e07b00; /* Darker orange for hover */
+  border-color: #e07b00;
+}
